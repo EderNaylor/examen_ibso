@@ -1,6 +1,4 @@
 import json
-
-import json
 import os
 
 def save_favorite_number():
@@ -26,6 +24,3 @@ def save_favorite_number():
         print("Your favorite number has been saved!")
     except ValueError:
         print("Error: Please enter numbers only.")
-
-
-save_favorite_number()

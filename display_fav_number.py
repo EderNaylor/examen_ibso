@@ -11,5 +11,3 @@ def display_favorite_number():
     except FileNotFoundError:
         print("No favorite number found. Please run save_favNumber.py to save it.")
 
-
-display_favorite_number()

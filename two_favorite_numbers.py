@@ -17,9 +17,6 @@ def add_two_numbers():
         # Add the numbers and print the result
         result = number1 + number2
         print(f"The sum of the numbers is: {result}")
-    except ValueError:
+    except ValueError as exc:
         # Handle the case where input is not a number
-        print("Error: Please enter numbers only.")
-
-
-add_two_numbers()
+        print("Error: Please enter numbers only.", exc)
